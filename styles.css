@@ -1,0 +1,100 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffe5d9, #ffddd2);
+  color: #4a2c2a;
+  line-height: 1.6;
+  padding: 20px;
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  color: #a14c2f;
+}
+
+header p {
+  color: #8a4e3c;
+  margin-top: 5px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #a14c2f;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #d45d3f;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #fff5f0;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-left: 6px solid #f7b89f;
+  border-radius: 14px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  animation: fadeIn 0.8s ease;
+}
+
+.card h2 {
+  color: #d45d3f;
+  margin-bottom: 12px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 12px;
+  padding: 0;
+}
+
+.skills li {
+  background: #ffd6c9;
+  color: #4a2c2a;
+  padding: 10px 16px;
+  border-radius: 22px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #aa6c5d;
+}
